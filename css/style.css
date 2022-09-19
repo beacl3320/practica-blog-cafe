@@ -195,4 +195,15 @@ img {
     margin-top: 4rem;
 }
 
+/* SOBRE NOSOTROS */
+
+@media (min-width: 768px)  {
+    .sobre-nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+
+    }
+}
+
 
